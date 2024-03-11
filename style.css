@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+}
+.frontpage{
+    background-image: url(images/background/dark-abstract-5k-2b.jpg);
+    height: 100vh;
+}
+.navebar{
+    height: 100px;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.342);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+   margin-left: 50px;
+}
+.logo:hover{
+    cursor: pointer;
+}
+.links{
+   display: flex;
+   gap: 100px;
+   color: white;
+}
+.link:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.CV_button{
+    margin-right: 50px;
+    padding: 10px 20px;
+    background-color: rgb(4, 249, 220);
+    border-radius: 30px;
+    border-style: none;
+    
+}
+.CV_button:hover{
+    background-color: rgb(11, 180, 160);
+    cursor: pointer;
+    transform: scale(0.95);
+    color: white;
+}
