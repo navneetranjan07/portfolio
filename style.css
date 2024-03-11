@@ -2,7 +2,8 @@
     margin: 0px;
 }
 .frontpage{
-    background-image: url(images/background/dark-abstract-5k-2b.jpg);
+    /* background-image: url(images/background/dark-abstract-5k-2b.jpg); */
+    background-image: linear-gradient(red, white);
     height: 100vh;
 }
 .navebar{
