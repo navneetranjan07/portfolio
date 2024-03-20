@@ -25,12 +25,12 @@
                 <link rel="stylesheet" href="index.html">
             </div>
             <div class="links">
-                <div class="link">Home</div>
-                <div class="link">About</div>
-                <div class="link">Projects</div>
-                <div class="link">Resume</div>
-                <div class="link">Blog</div>
-                <div class="link">Contact</div>
+                <a href="#"><div class="link">Home</div></a>
+                <a href="#about"><div class="link">About</div></a>
+                <a href="#projects"><div class="link">Projects</div></a>
+                <a href="#resume"><div class="link">Resume</div></a>
+                <a href="#blog"><div class="link">Blog</div></a>
+                <a href="#contact"><div class="link">Contact</div></a>
             </div>
 
             <button class="CV_button">Download CV</button>
@@ -46,8 +46,9 @@
                     <div class="developer">
                         I'm a <span>Full Stack Web Developer</span>
                     </div>
-                    <button class="about_button">About Me</button>
                     <div class="paragraph">A passionate full stack fresher developer eager to innovate and contribute to transformative projects with a holistic approach to development.</div>
+                    <a href="#about"><button class="about_button">About Me</button></a>
+                    <button class="hire_me">Hire Me</button>
                 </div>
             </div>
 
@@ -72,36 +73,42 @@
         </div>
 
         <div class="scroll_arrow">
-            <img src="images/pngs/arrow.png" alt=""height="40px">
+            <a href="#"><img src="images/pngs/arrow.png" alt=""height="40px"></a>
         </div>
        
     
     </div>
-    <div class="About">
-        <div class="education_exprience">
-            <div class="education">
-                <h1>EDUCATION</h1>
-                
-            </div>
-
-            <div class="exprience">Exprience</div>
-        </div>
-        <div class="biography">Biography</div>
+    <div id="about">
+        <div class="title">ABOUT</div>
+        <div class="content"></div>
     </div>
 
-    <div class="Projects">Project</div>
+    <div id="projects">
+        <div class="title">PROJECTS</div>
+        <div class="content"></div>
+    </div>
     
-    <div class="Resume">Resume</div>
+    <div id="resume">
+        <div class="title">RESUME</div>
+        <div class="content"></div>
+    </div>
     
-    <div class="Blog">Blog</div>
+    <div id="blog">
+        <div class="title">BLOG</div>
+        <div class="content"></div>
+    </div>
     
-    <div class="Contact">Contact</div>
+    <div id="contact">
+        <div class="title">CONTACT</div>
+        <div class="content"></div>
+    </div>
 
+    <!-- footer started -->
     <div class="footer">
         <div class="email">
             <fieldset>
             <legend>Email</legend>
-            <textarea name="email" id="email" cols="30" rows="10"
+            <textarea name="email" id="email" cols="30" rows="2"
             placeholder="Enter Your Email"></textarea>
         </fieldset>
         </div>
