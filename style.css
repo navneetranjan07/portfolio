@@ -180,6 +180,7 @@ color: white;
     width: 550px;
     margin-right: 0px;
     background-color: rgb(255, 191, 0);
+    /* box-shadow: rgb(255, 0, 0)0px 0px 10px 5px; */
     position: absolute;
     /* z-index: 1; */
     transform: rotate(10deg);
@@ -195,7 +196,6 @@ color: white;
     overflow: hidden;
     display: flex;
     justify-content: center;
-    align-items: center;
     box-shadow: rgba(0, 0, 0, 0.502) 0px 30px 60px -5px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
     border: 2px rgb(255, 255, 255) solid;
 }
