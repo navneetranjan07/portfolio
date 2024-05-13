@@ -362,6 +362,9 @@ color: white;
     border-radius: 20px;
     font-family: "Kurale", serif; 
 }
+.live:hover{
+    cursor: pointer;
+}
 
 .projects_content1{
     background-image: url(images/projects/proj1.png);
