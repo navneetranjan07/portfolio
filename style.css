@@ -222,11 +222,12 @@ color: white;
     top: 50px;
     left: 20px;
     overflow: hidden;
+    font-family: "Kurale", serif;
 }
 .square:hover .text_in_square{
     transition: all 0.3s ease-in-out;
     opacity: 1;
-    font-size: 25px;
+    font-size: 22px;
 }
 
 /* social media icons */
@@ -394,50 +395,88 @@ color: white;
     align-items: center;
     background-image: url(images/pngs/footer_bg.png);
 }
-.contact-container {
-    background-color: #f1f1f1;
+  .contact {
+    background-color: #0000003c;
+    color: #fff;
     padding: 30px;
-    border-radius: 5px;
-    max-width: 500px;
-    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
   }
   
-  h2 {
-    text-align: center;
+  .contact h2 {
+    margin-bottom: 15px;
+    font-family: "Kurale", serif;  
+    color:  rgb(255, 251, 2);
+  }
+  
+  .contact p {
     margin-bottom: 20px;
   }
   
-  label {
+  .form-group {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .form-group label {
     display: block;
     margin-bottom: 5px;
+    width: 30%;
   }
   
   input[type="text"],
   input[type="email"],
   textarea {
-    width: 100%;
+    width: 65%;
     padding: 10px;
     border: 1px solid #ccc;
-    border-radius: 3px;
-    margin-bottom: 15px;
+    border-radius: 4px;
+    box-sizing: border-box;
   }
   
   textarea {
-    height: 150px;
+    height: 100px;
+    resize: vertical;
   }
   
-  button {
-    background-color: rgb(255, 251, 2);
-    color: rgb(0, 0, 0);
+  button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
     padding: 10px 20px;
     border: none;
-    border-radius: 30px;
+    border-radius: 4px;
     cursor: pointer;
+    transition: linear 0.2s all;
   }
   
-  button:hover {
-    background-color: #3e8e41;
+  button[type="submit"]:hover {
+    background-color: #0062cc;
+    transform: scale(1.1);
+    transition: linear 0.2s all;
   }
+  
+  .google-signin {
+    background-color: #fff;
+    color: #000;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 10px;
+    transition: linear 0.2s all;
+  }
+  
+  .google-signin:hover {
+    background-color: #f5f5f5;
+    transform: scale(1.1);
+    transition: linear 0.2s all;
+  }
+  
 
 #contact{
     height: 100vh;
@@ -453,16 +492,10 @@ color: white;
     background-image: url(images/pngs/footer_bg.png);
 }
 
-.email{
-    flex: 1;
-    /* background-color: aqua; */
+.footer_logo{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 80%;
-}
-legend{
-    color: white;
 }
 
 .footer_liks{
