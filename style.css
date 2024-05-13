@@ -354,6 +354,11 @@ color: white;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: linear 0.2s all;
+}
+.projects_content1:hover,.projects_content2:hover,.projects_content3:hover,.projects_content4:hover,.projects_content5:hover,.projects_content6:hover{
+    transform: scale(1.05);
+    transition: linear 0.2s all;
 }
 .live{
     border: none;
