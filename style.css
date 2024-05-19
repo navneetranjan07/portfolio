@@ -202,6 +202,7 @@ color: white;
     box-shadow: rgba(0, 0, 0, 0.502) 0px 30px 60px -5px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
     /* border-left: 12px rgb(255, 255, 255) solid; */
 }
+
 .square:hover{
     background-image: url(images/my_pic/my_pnggg.png);
     background-size: 600px;
@@ -209,6 +210,20 @@ color: white;
     display: flex;
     justify-content: left;
     align-items: center;
+}
+.square span{
+    position: absolute;
+    top: 50%;
+    left: -20%;
+    opacity: 50%;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+    font-size: 40px;
+    rotate: 270deg;
+}
+.square:hover span
+{
+    display: none;
 }
 .text_in_square{
     height: 450px ;
@@ -296,7 +311,7 @@ color: white;
     background-image: url(images/pngs/footer_bg.png);
 }
 .about_name_area{
-    flex: 1;
+    flex: 0.8;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -312,13 +327,32 @@ color: white;
     font-size: 20px;
 }
 
-.about_pic{
-    flex: 1;
+.about_pic {
+    overflow: hidden;
+    height: 500px;
+    align-self: center;
+    justify-self: center;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
+    border-radius: 20px;
+  }
+  
+  .about_pic img {
+    height: 500px;
+    transition: transform 0.3s ease-out;
+  }
+  
+  .model-right {
+    transform: translate(0%, 10%);
+  }
+  
+  .model-left {
+    transform: translate(0%, -10%);
+  }
+  
+  .about_pic:hover .model-right,
+  .about_pic:hover .model-left {
+    transform: translate(0%, 0%);
+  }
 
 
 #projects{
