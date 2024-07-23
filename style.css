@@ -640,3 +640,120 @@ button[type="submit"]:hover {
 
 
 /* mediaquerry */
+
+@media only screen and (max-width: 1080px) {
+    body {
+        .navebar{
+            height: 5vh;
+        }
+        .logo{
+            margin-left: 0px;
+        }
+        .links{
+            gap: 15px;
+        }
+        .CV_button{
+            margin-right: 0px;
+            padding: 5px;
+            font-size: 12px;
+        }
+
+
+        .home{
+            width: 100%;
+            flex-direction: column;
+        }
+        .left_side{
+            height: 50%;
+            width: 100%;
+        }
+            .left_container{
+            text-align: center;
+            }
+            .paragraph{
+            width:100%; 
+            }
+
+
+        .right_side{
+        height: 50%;
+        width: 100%;
+        }
+        .back_rect{
+        display:none;
+        }
+
+        .scroll_arrow{
+        left:90%;
+        }
+
+
+        .social_media{
+        margin_left:95%
+        }
+
+        .project_content_name{
+        width:100%
+        }
+
+        .square{
+        margin-bottom:30%;
+        }
+
+
+        .about{
+        flex-direction:column;
+        }
+        .about_name_area{
+        flex:0.6;
+        }
+
+        .project_title_name{
+        padding-top:50px;
+        flex:0.5;
+        }
+
+        .project_content_name{
+        gap:20px;
+        width:80%;
+        align-item:center;
+        }
+
+        .content-1, .content-2{
+        flex-direction:column;
+        }
+
+        .projects_content1, .projects_content2, .projects_content3, .projects_content4, .projects_content5, .projects_content6 {
+        width:600px;
+        }
+
+        .contact{
+        padding:230px;
+        }
+
+        .contact h2{
+        font-size:55px;
+        }
+        .contact p{
+        font-size:60px;
+        }
+
+        .form-group{
+        font-size:30px;
+        }
+
+        .footer{
+        height:15vh;
+        }
+
+        .footer_links{
+        gap:30px;
+        }
+
+        .footer_social_icons{
+        gap:15px;
+        flex-direction:column;
+        }
+
+    }
+    }
